@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip> //adds .00 to ur number
+#include <iomanip> 
 using namespace std;
 
 
@@ -12,7 +12,6 @@ int main(){
 
 double balance = 123;
 int choice = 0;
-
 
 do{
     cout << "*******************\n";
@@ -80,6 +79,5 @@ double withdraw(double balance){
     else{
         return amount;
     }
-
     return amount;
 }
